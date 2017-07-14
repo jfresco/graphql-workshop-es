@@ -32,7 +32,7 @@ const typeDefs = [`
 
   type Query {
     item(id: Int!): Item
-    stories: [Item]
+    stories(page: Int, count: Int): [Item]
     user(id: String!): User
   }
 
@@ -47,8 +47,14 @@ const resolvers = {
       return getItem(id)
     },
 
-    async stories () {
+    async stories (_, { page, count }) {
       const stories = await getTopStories()
+      if (page && count) {
+        return stories
+          .slice(page * count, (page * count) + count)
+          .map(getItem)
+      }
+
       return stories.map(getItem)
     },
 
