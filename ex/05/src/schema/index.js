@@ -63,7 +63,7 @@ const resolvers = {
       return getUser(by)
     },
     kids ({ kids }) {
-      return kids.map(getItem)
+      return itemLoader.loadMany(kids)
     },
     type ({ type }) {
       return type.toUpperCase()
@@ -71,7 +71,7 @@ const resolvers = {
   },
   User: {
     submitted ({ submitted }) {
-      return submitted.map(getItem)
+      return itemLoader.loadMany(submitted.slice(0, 10))
     }
   }
 }
