@@ -1,21 +1,10 @@
 # Taller de GraphQL
 
-
 ## Materiales
 
-## Temas
-### Parte 1
-- [Introducción a GraphQL](ex/01)
-- [Creando un servidor simple](ex/02)
-- [El _schema_](ex/03)
-- [Conectándose a fuentes de datos](ex/04)
-- [Los _resolvers_ y cómo funcionan en paralelo](ex/05)
-- [_Batching_ y _caching_ con `dataloader`](ex/06)
-
-### Parte 2
-- Un cliente GraphQL simple
-- Apollo Client
-- Paginación y _optimistic UI_
+- [Documentación oficial de referencia](http://graphql.org/learn/)
+- [Cheat sheet para definir tipos](https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6)
+- [Librerías de JavaScript](http://graphql.org/code/#javascript) para crear servidores
 
 ## Requisitos
 - Node >= 7 y npm >=5
@@ -27,8 +16,19 @@
 - Features de JavaScript como Promises, funciones asincrónicas
 - Alguna noción de React puede ser útil pero no es obligatorio.
 
-## Ejercicios
+## Temas
 
+### Parte 1
+- [Introducción a GraphQL](ex/01)
+- [Creando un servidor simple](ex/02)
+- [Conectándose a fuentes de datos](ex/03)
+- [El _schema_: tipos y resolvers](ex/04)
+- [_Batching_ y _caching_ con `dataloader`](ex/05)
+
+### Parte 2
+- Un cliente GraphQL simple (work in progress)
+- Apollo Client (work in progress)
+- Paginación y _optimistic UI_ (work in progress)
 
 ## Créditos
 La estructura de este taller está basada en el excelente [taller de Vue.js de ianaya89](https://github.com/ianaya89/workshop-vuejs).
