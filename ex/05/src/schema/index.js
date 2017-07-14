@@ -55,12 +55,12 @@ const resolvers = {
     },
 
     user (_, { id }) {
-      return getUser(id)
+      return userLoader.load(id)
     }
   },
   Item: {
     by ({ by }) {
-      return getUser(by)
+      return userLoader.load(by)
     },
     kids ({ kids }) {
       return itemLoader.loadMany(kids)
@@ -86,5 +86,7 @@ const topStoriesLoader = new DataLoader(async params => Promise.all(params.map(a
     ? stories.slice(page * count, (page * count) + count)
     : stories)
 })))
+
+const userLoader = new DataLoader(ids => Promise.all(ids.map(getUser)))
 
 module.exports = makeExecutableSchema({ typeDefs, resolvers })
