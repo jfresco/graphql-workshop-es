@@ -29,6 +29,8 @@ const typeDefs = [`
     title: String
     type: ITEM_TYPE
     url: String
+    text: String
+    dead: Boolean
   }
 
   type Query {

@@ -25,9 +25,11 @@ const typeDefs = [`
     kids: [Item]
     score: Int!
     time: Int
-    title: String!
+    title: String
     type: ITEM_TYPE
     url: String
+    text: String
+    dead: Boolean
   }
 
   type Query {
