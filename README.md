@@ -5,12 +5,12 @@
 
 ## Temas
 ### Parte 1
-- Introducción a GraphQL
-- Creando un servidor simple
-- El _schema_
-- Conectándose a fuentes de datos
-- Los _resolvers_ y cómo funcionan en paralelo
-- _Batching_ y _caching_ con `dataloader`
+- [Introducción a GraphQL](ex/01)
+- [Creando un servidor simple](ex/02)
+- [El _schema_](ex/03)
+- [Conectándose a fuentes de datos](ex/04)
+- [Los _resolvers_ y cómo funcionan en paralelo](ex/05)
+- [_Batching_ y _caching_ con `dataloader`](ex/06)
 
 ### Parte 2
 - Un cliente GraphQL simple
