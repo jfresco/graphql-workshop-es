@@ -11,8 +11,12 @@ const typeDefs = [`
     submitted: [Item]
   }
 
-  enum ItemType {
-    story
+  enum ITEM_TYPE {
+    JOB
+    STORY
+    COMMENT
+    POLL
+    POLLOPT
   }
 
   type Item {
@@ -22,7 +26,7 @@ const typeDefs = [`
     score: Int!
     time: Int
     title: String!
-    type: ItemType
+    type: ITEM_TYPE
     url: String
   }
 
@@ -58,6 +62,9 @@ const resolvers = {
     },
     kids: function ({ kids }) {
       return kids.map(getItem)
+    },
+    type: function({ type }) {
+      return type.toUpperCase()
     }
   },
   User: {
