@@ -63,13 +63,13 @@ const resolvers = {
     }
   },
   Item: {
-    by: function({ by }) {
+    by ({ by }) {
       return getUser(by)
     },
-    kids: function ({ kids }) {
+    kids ({ kids }) {
       return kids.map(getItem)
     },
-    type: function({ type }) {
+    type ({ type }) {
       return type.toUpperCase()
     }
   },
