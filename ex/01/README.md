@@ -55,7 +55,7 @@ Si yo hubiera pedido más datos, el servidor me hubiera respondido con ellos. Y 
 
 Uno podría preguntarse, entonces, ¿qué le puedo pedir a ese servidor GraphQL además de `starships`? Y de cada `starship`, ¿qué puedo saber además de su nombre y ID?
 
-Desde ya que no es arbitraria la forma en la que puedo estructurar mis queries, así como no es arbitrario qué puedo poner en un `SELECT` de SQL. Los datos en el servidor están estructurados de una fomra y las consultas que yo pueda hacer están determinadas por esa estructura. Dicha estructura es lo que llamamos _schema_.
+Desde ya que no es arbitraria la forma en la que puedo estructurar mis queries, así como no es arbitrario qué puedo poner en un `SELECT` de SQL. Los datos en el servidor están estructurados de una forma y las consultas que yo pueda hacer están determinadas por esa estructura. Dicha estructura es lo que llamamos _schema_.
 
 Un _schema_ es una representación de los datos disponibles en mi servidor GraphQL. A diferencia de las bases de datos donde yo tengo tablas con campos y relaciones entre ellas, la estructura en GraphQL tiene forma de **grafo**. Cada uno de los nodos de ese grafo es algo que yo puedo consultar y tiene un **nombre**, **tipo** y una **descripción**, además de una relación con su nodo padre y sus hijos.
 
