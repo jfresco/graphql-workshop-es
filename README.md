@@ -26,8 +26,7 @@
 - [_Batching_ y _caching_ con `dataloader`](ex/05)
 
 ### Parte 2
-- Un cliente GraphQL simple (work in progress)
-- Apollo Client (work in progress)
+- [Un cliente GraphQL simple con Apollo Client](ex/06)
 - Paginación y _optimistic UI_ (work in progress)
 
 ## Créditos
