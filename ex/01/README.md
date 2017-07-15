@@ -60,3 +60,7 @@ Desde ya que no es arbitraria la forma en la que puedo estructurar mis queries, 
 Un _schema_ es una representación de los datos disponibles en mi servidor GraphQL. A diferencia de las bases de datos donde yo tengo tablas con campos y relaciones entre ellas, la estructura en GraphQL tiene forma de **grafo**. Cada uno de los nodos de ese grafo es algo que yo puedo consultar y tiene un **nombre**, **tipo** y una **descripción**, además de una relación con su nodo padre y sus hijos.
 
 Afortunadamente, el _schema_ es algo que también le puedo consultar a un servidor GraphQL con lo que se llama [_introspection queries_](http://graphql.org/learn/introspection/). Como corolario, los servidores GraphQL son autodocumentados: con una simple consulta puedo obtener el schema completo, con el nombre de cada nodo, su tipo y descripción.
+
+___
+
+- [Siguiente](../02)

@@ -121,3 +121,7 @@ render() {
 
 - Modificar el query para traer más datos. Utilizar esa información en el markup (por ejemplo, trayendo la URL y creando un link a cada story)
 - Modificar el CSS de la aplicación 💅
+
+___
+
+- [Código](src)

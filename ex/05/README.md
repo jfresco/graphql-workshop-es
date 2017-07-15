@@ -62,3 +62,8 @@ const userLoader = new DataLoader(...)
 ```
 
 Escribir las funciones para los loaders planteados. Hacer las llamadas a los loaders en los resolvers que correspondan.
+
+___
+
+- [Siguiente](../06)
+- [Código](src)

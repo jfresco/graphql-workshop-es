@@ -224,3 +224,8 @@ Debería devolver esto:
 ```
 
 Si así fue, ya puede poner en su currículum que sabe de GraphQL.
+
+___
+
+- [Siguiente](../03)
+- [Código](src)

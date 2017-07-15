@@ -18,14 +18,11 @@
 
 ## Temas
 
-### Parte 1
 - [Introducción a GraphQL](ex/01)
 - [Creando un servidor simple](ex/02)
 - [Conectándose a fuentes de datos](ex/03)
 - [El _schema_: tipos y resolvers](ex/04)
 - [_Batching_ y _caching_ con `dataloader`](ex/05)
-
-### Parte 2
 - [Un cliente GraphQL simple con Apollo Client](ex/06)
 - Paginación y _optimistic UI_ (work in progress)
 

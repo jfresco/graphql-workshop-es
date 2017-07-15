@@ -136,3 +136,8 @@ Luego, reiniciando el server y conectándonos a `http://localhost:3000/test` deb
 Si todo marcha bien, significa que nuestro código de plomería funciona y que tenemos conexión a la API que vamos a wrappear.
 
 ¿Qué sigue? Sí, adivinaron: crear el schema.
+
+___
+
+- [Siguiente](../04)
+- [Código](src)
